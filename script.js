@@ -56,7 +56,7 @@ function start()
     if(tracker%2==1)
     {
         document.getElementById("start").innerHTML ="pause";
-       time = setInterval(secfunc, 100);
+       time = setInterval(secfunc, 1000);
     }
     else {
         stop();
